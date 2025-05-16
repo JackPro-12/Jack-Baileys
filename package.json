@@ -1,6 +1,6 @@
 {
   "name": "@jack-pro/baileys",
-  "version": "7.0.0",
+  "version": "6.7.16",
   "description": "WhatsApp API",
   "keywords": [
     "whatsapp",
@@ -12,7 +12,7 @@
     "whatsapp-bot"
   ],
   "license": "MIT",
-  "author": "PL",
+  "author": "Jack",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [

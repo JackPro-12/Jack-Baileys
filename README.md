@@ -16,12 +16,6 @@
 
 ---
 
-## Fitur Utama
-
-- Fix Crypto Error ✅
-- Fix Button New ✅
-- Multi session bot WhatsApp
-
 ## Example
 
 Here is an example you can use: [example.ts](Example/example.ts) or here is a tutorial for running the Baileys WhatsApp API code
