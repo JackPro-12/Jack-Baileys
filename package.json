@@ -16,9 +16,11 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
-    "lib/*",
-    "WAProto/*",
-    "WASignalGroup/*.js"
+  "lib/*",
+  "WAProto/*.ts",
+  "WAProto/*.js",
+  "WASignalGroup/*.js",
+  "engine-requirements.js"
   ],
   "scripts": {
     "build:all": "tsc && typedoc",
@@ -33,6 +35,7 @@
     "lint": "eslint src --ext .js,.ts,.jsx,.tsx",
     "lint:fix": "eslint src --fix --ext .js,.ts,.jsx,.tsx",
     "prepack": "tsc",
+    "postinstall": "node engine-requirements.js"
     "prepare": "tsc",
     "release": "release-it",
     "test": "jest"
